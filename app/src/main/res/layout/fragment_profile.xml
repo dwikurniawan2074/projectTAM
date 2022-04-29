@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFragment">
+
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="528dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="-2dp"
+        android:layout_marginTop="-276dp"
+        android:background="@drawable/gradient_shape" />
+
+    <View
+        android:layout_width="184dp"
+        android:layout_height="194dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="113dp"
+        android:layout_marginTop="139dp"
+        android:background="@drawable/profile_shape" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="123dp"
+        android:layout_marginTop="352dp"
+        android:text="Profile Name"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Scholaps"
+        android:textSize="30dp"
+        android:textColor="#272A71"
+        android:fontFamily="sans-serif-black"
+        android:textStyle="italic" />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomerFragment">
+
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="545dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="-246dp"
+        android:layout_marginTop="-281dp"
+        android:background="@drawable/background_menu" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Scholaps"
+        android:textSize="30dp"
+        android:textColor="#272A71"
+        android:fontFamily="sans-serif-black"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:layout_width="330dp"
+        android:layout_height="400px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="82dp"
+        android:background="@drawable/gambar_beasiswa" />
+
+    <Button
+        android:layout_width="330dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="270dp"
+        android:background="@drawable/button_customer"
+        android:drawableLeft="@drawable/ic_email"
+        android:text="hubungi melalui email"
+        android:textSize="20dp"
+        android:textColor="#222121"/>
+
+    <Button
+        android:layout_width="330dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="380dp"
+        android:background="@drawable/button_customer"
+        android:drawableLeft="@drawable/ic_livechat"
+        android:text="Hubungi melalui live chat"
+        android:textSize="20dp"
+        android:textColor="#222121"/>
+
+    <Button
+        android:layout_width="330dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="490dp"
+        android:background="@drawable/button_customer"
+        android:drawableLeft="@drawable/ic_faq"
+        android:text="Frequently Asked questions"
+        android:textSize="20dp"
+        android:textColor="#222121"/>
+
+</RelativeLayout>

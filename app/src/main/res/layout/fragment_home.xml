@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="545dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="-246dp"
+        android:layout_marginTop="-281dp"
+        android:background="@drawable/background_menu" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Scholaps"
+        android:textSize="30dp"
+        android:textColor="#272A71"
+        android:fontFamily="sans-serif-black"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:layout_width="820px"
+        android:layout_height="400px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="82dp"
+        android:background="@drawable/gambar_beasiswa" />
+
+    <Button
+        android:id="@+id/btn_pencarian"
+        android:layout_width="160dp"
+        android:layout_height="140dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="270dp"
+        android:background="@drawable/button_shape"
+        android:drawableTop="@drawable/ic_search"
+        android:text="Pencarian" />
+
+    <Button
+        android:id="@+id/btn_pesan"
+        android:layout_width="160dp"
+        android:layout_height="140dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="420dp"
+        android:background="@drawable/button_shape"
+        android:drawableTop="@drawable/ic_chat"
+        android:text="Pesan" />
+
+    <Button
+        android:id="@+id/btn_pendaftaran"
+        android:layout_width="160dp"
+        android:layout_height="140dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="270dp"
+        android:layout_marginRight="42dp"
+        android:background="@drawable/button_shape"
+        android:drawableTop="@drawable/ic_daftar"
+        android:text="Pendaftaran" />
+
+    <Button
+        android:id="@+id/btn_customer"
+        android:layout_width="160dp"
+        android:layout_height="140dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="420dp"
+        android:layout_marginRight="42dp"
+        android:background="@drawable/button_shape"
+        android:drawableTop="@drawable/ic_customer"
+        android:text="Customer Service"/>
+
+
+</RelativeLayout>
